@@ -9,6 +9,11 @@
 header  {
     position:fixed;
     width: 100%;
+    background-color:white;
+}
+
+body {
+    background-color: bisque;
 }
 
 /*Help moving my name independent of nav bar and header*/
@@ -27,8 +32,6 @@ h2 {
 }
 
 nav {
-    display: flex;
-    justify-content: flex-end;
     margin-left:1020px
 }
 
@@ -53,11 +56,44 @@ p {
     margin-right: 50px;
 }
 
-.mywork {
+div.mywork {
     margin-left:400px;
     margin-right: 50px;
 }
 
+
+img {
+   
+  }
+
+
+.mainimg {
+    border: 2px solid;
+    width: 100%;
+    height: auto;
+
+}
+
+.images {
+    border: 2px solid;
+    width: 100%;
+    height: auto;
+
+}
+
+.images:hover {
+    
+}
+
+
+.column {
+
+}
+
+
+.row {
+
+}
 .footer {
     position: fixed;
     bottom:0;
