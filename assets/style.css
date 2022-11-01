@@ -1,6 +1,6 @@
 
 * {
-    margin: 1px;
+    margin: 0.1px 0.1px 0.1px 0.1px;
     font-family: Arial, Helvetica, sans-serif;
     color:black;
     text-decoration: none;
@@ -9,30 +9,33 @@
 header  {
     position:fixed;
     width: 100%;
-    background-color:white;
+    height: 100px;
+    background-color:whitesmoke;
+    z-index: 1;
+
 }
 
 body {
-    background-color: bisque;
+    background-image: linear-gradient(to right, rgb(247, 206, 179), rgb(251, 206, 251));
 }
 
-/*Help moving my name independent of nav bar and header*/
+#head1 {
+  margin-top: 45px;
+
+}
+
 h1 {
-   margin-top: 10px;
+margin: 0;
+bottom: 0px;
 }
 
-/*Why does my main affect my header?*/
-main {
- margin-top: 90px;
-}
-
-/*How to align end of titles*/
-h2 {
-    margin-left: 100px;
-}
 
 nav {
-    margin-left:1020px
+    display: flex;
+    justify-content: flex-end;
+    margin-right:10px;
+
+
 }
 
 li {
@@ -45,26 +48,31 @@ li:hover {
     font-weight: 900;
 }
 
-p {
-   
+
+/* MAIN BELOW */
+
+main {
+ margin-top: 100px;
+}
+
+
+h2 {
+    padding-top: 100px;
+    margin-left: 100px;
+    font-size: 40pt;
 }
 
 .about {
     border-style: solid;
     border-width: 1px;
-    margin-left:400px;
+    margin-left:450px;
     margin-right: 50px;
 }
 
 div.mywork {
-    margin-left:400px;
+    margin-left:450px;
     margin-right: 50px;
 }
-
-
-img {
-   
-  }
 
 
 .mainimg {
@@ -78,25 +86,68 @@ img {
     border: 2px solid;
     width: 100%;
     height: auto;
-
 }
 
-.images:hover {
+img:hover {
+    opacity: 0.5;
+  }
+
+
+
+
+@media only screen and (min-width:821px) {
+.row {
+    display: flex;
+}
+
+.column {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+}
+    
+
+@media only screen and (max-width:821px) {
+    h1 {
+        text-align: center;
+        font-size: 40pt;
+    }
+
+    #head1 {
+        margin-top: 5px;
+      }
+
+    nav {
+       justify-content: center;
+    }
+
+    li {
+    }
+
+    main {
+        width: 100%;
+        height: auto;
+    } 
+    .about {
+        margin: auto;
+    }
+    
+    div.mywork {
+       margin: auto;
+    }
+
+    h2 {
+        margin: auto;
+    }
     
 }
 
 
-.column {
-
-}
-
-
-.row {
-
-}
 .footer {
     position: fixed;
     bottom:0;
     width:100%;
     text-align: center;
+    background-color: white;
 }
