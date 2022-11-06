@@ -16,7 +16,6 @@
                 <li><a href="#aboutme">About Me</li>
                 <li><a href="#work">Work</li>
                 <li><a href="#contact">Contact</li>
-                 <li><a href="#resume">Resume</li>
             </ul>
         </nav>
     </header>
@@ -24,13 +23,14 @@
         
         <section id="aboutme">
             <h2>About Me</h2>
+            <img class="avatar" src="assets/images/Avatar.jpg" alt="avatar of author">
             <div class="about">
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem soluta modi tempora libero? Neque harum alias, sint suscipit, nesciunt iste quidem at, labore consequuntur assumenda quas eum expedita rem magnam?</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem soluta modi tempora libero? Neque harum alias, sint suscipit, nesciunt iste quidem at, labore consequuntur assumenda quas eum expedita rem magnam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo enim consectetur ut deserunt officiis similique quis unde voluptates dignissimos! Natus accusantium ea nemo laborum reiciendis adipisci maiores alias? Voluptatibus, neque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod eos sed porro voluptates, at, voluptatibus dignissimos recusandae, impedit fuga iste accusantium iusto ipsa incidunt perferendis iure dicta excepturi provident reiciendis?</p>
             </div>
         </section>
         
         <section id="work">
-            <h2>Work</h2>
+            <h2 class="headingmywork">Work</h2>
             <div class="mywork">
 
                 <section>
@@ -40,18 +40,22 @@
 
                 <section class="row">
                     <div class="column">
+                        <h3>XYZ</h3>
                         <img class="images" src="assets/images/bluewhite.jpg" alt="Blue and White background image">
                     </div>
                     <div class="column">
+                        <h3>XYZ</h3>
                         <img class="images" src="assets/images/pink.jpg" alt="pink background image">
                     </div>
                 </section>
                 
                 <section class="row">
                     <div class="column">
+                        <h3>XYZ</h3>
                         <img class="images" src="assets/images/sunset.jpg" alt="sunset">
                     </div>
                     <div class="column">
+                        <h3>XYZ</h3>
                         <img class="images" src="assets/images/white.jpg" alt="white background">
                     </div>   
                 </section>
@@ -61,16 +65,25 @@
 
         <section id="contact">
             <h2>Contact</h2>
-        </section>
-
-        <section id="resume">
-            <h2>Resume</h2>
+            <div>
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your First Name">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your Last Name">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" email="email" placeholder="example@email.com">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </section>
 
     </main>
     <footer class="footer">
         <div>
-            xyz
+            My Portfolio ©
         </div>
     </footer>
 </body>
