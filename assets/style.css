@@ -6,12 +6,13 @@
     text-decoration: none;
 }
 
+/* HEADING START */
 header  {
     position:fixed;
     width: 100%;
     height: 100px;
     background-color:whitesmoke;
-    z-index: 1;
+    z-index: 2;
 
 }
 
@@ -47,12 +48,14 @@ li {
 li:hover {
     font-weight: 900;
 }
+/* HEADING END */
 
 
 /* MAIN BELOW */
 
 main {
  margin-top: 100px;
+ margin-bottom: 50px;
 }
 
 
@@ -67,6 +70,7 @@ h3 {
     color: white;
     background-color: black;
     width: 50%;
+    z-index: 1;
 }
 
 h3:hover {
@@ -89,6 +93,7 @@ h3:hover {
     padding: 5px;
 }
 
+
 .headingmywork {
     margin-top: 300px;
 }
@@ -97,7 +102,6 @@ div.mywork {
     margin-left:450px;
     margin-right: 50px;
 }
-
 
 .mainimg {
     border: 2px solid;
@@ -111,7 +115,6 @@ div.mywork {
   }
 
 .images {
-    display: flex;
     border: 2px solid;
     width: 100%;
     height: auto;
@@ -125,9 +128,34 @@ div.mywork {
     position: relative;
 }
 
+.contactsection {
+    margin-left:450px;
+    margin-right: 50px;
+    padding: 5px;
+}
 
-/* */
+.yourname {
+    margin-top: 10px;
+}
 
+.yourlastname {
+    margin-top: 10px;
+
+}
+
+.youremail {
+    margin-top: 10px;
+
+}
+
+.subjectsection {
+    margin-top: 10px;
+    margin-right: 100px;
+
+}
+
+
+/* The SUBMIT BUTTON in contact section*/
 Style inputs
 input[type=text], select, textarea {
     width: 100%;
@@ -137,47 +165,23 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
   }
-  
+
   input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
+    background-color: WHITE;
+    color: BLACK;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: black;
+    color: white;
   }
-/*   
-  Style the container/contact section */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
-  
-  /* Create two columns that float next to eachother
-  .column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-  } */
-  
-  /* Clear floats after the columns
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  } */
-
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  /* @media screen and (max-width: 600px) { */
+  /* The SUBMIT BUTTON in contact section*/
 
 
- 
-
+ /* Screen size 821px and larger*/
 @media only screen and (min-width:821px) {
 .row {
     display: flex;
@@ -191,10 +195,11 @@ input[type=text], select, textarea {
 }
     
 
+/* Screen size 821px and smaller*/
 @media only screen and (max-width:821px) {
-    
+   
     body {
-        overflow-x: hidden; /* Hide horizontal scrollbar
+        overflow-x: hidden;  /* Hides horizontal scrollbar*/
         margin: 2px
       }
 
@@ -215,14 +220,12 @@ input[type=text], select, textarea {
        justify-content: center;
     }
 
-    li {
-    }
-
     main {
         width: 100%;
         height: auto;
         ;
     } 
+
     .about {
         position:relative;
         margin: auto;
@@ -233,16 +236,46 @@ input[type=text], select, textarea {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        padding-bottom: 10px;
     }
     
     div.mywork {
        margin: auto;
     }
 
+    .images {
+        border: 2px solid;
+        width: 100%;
+        height: auto;
+    }
+
     h2 {
         margin: auto;
     }
     
+    .contactsection {
+        width: 100%;
+        margin: 1px;
+    }
+
+    .yourname {
+        margin-top: 10px;
+    }
+    
+    .yourlastname {
+        margin-top: 10px;
+    
+    }
+    
+    .youremail {
+        margin-top: 10px;
+    
+    }
+    
+    .subjectsection {
+        margin-top: 10px;
+    
+    }
 }
 
 

@@ -1,25 +1,33 @@
-# Portfolio
+Module-2-Challenge
+Module Challenge Week 2 - CSS Challenge: Create a portfolio to show potential employers
 
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+Description
+A portfolio for potential employers so that they can learn more about my background, see my work, & to get in contact with me.
+Also to showcase what I am able to do with html & css. 
 
-GIVEN I need to sample a potential employee's previous work
+Table of Contents (Optional)
+NA
 
-<!-- WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them -->
+Installation
+Created HTML & CSS from scratch
 
-<!-- WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section -->
+Usage
+For employers to view my work, background and get in touch with me. 
 
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
+Credits
+NA
 
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
+License
+NA
 
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
+Badges
+NA
 
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+Features
+NA
+
+How to Contribute
+NA
+
+Tests
+NA
